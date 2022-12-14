@@ -40,4 +40,4 @@ a. Rangkuman proyek STBI </br>
 </br></br>
 Proyek STBI Kelompok 4 yaitu “Aksara Jawa” merupakan _multimedia information retrieval system_ karena sistem ini melakukan ekstraksi informasi semantik dari sumber data multimedia dalam bentuk gambar, yaitu berupa _label_.
 </br></br>
-Rangkuman dalam bentuk paper dapat dilihat di: https://docs.google.com/document/d/1tmFKtXr9QkoUrM6n0OSlNiRQ5zSodkGjRUMTac4Co5c/edit#heading=h.exgrom2ge51o
+Rangkuman dalam bentuk paper dapat dilihat di: https://docs.google.com/document/d/1tmFKtXr9QkoUrM6n0OSlNiRQ5zSodkGjRUMTac4Co5c/edit?usp=sharing
