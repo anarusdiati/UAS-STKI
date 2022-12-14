@@ -1,2 +1,3 @@
 # UAS-STKI
-UAS STKI S2
+
+Rokhana Diyah Rusdiati (21/486134/PPA/06236)
