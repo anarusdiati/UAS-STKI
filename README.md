@@ -5,11 +5,11 @@ Rokhana Diyah Rusdiati (21/486134/PPA/06236) </br>
 
 **Jawaban Nomor 1** </br>
 Metode kueri pencarian dan similarity search pada proyek pengembangan STBI di Kelompok 4 “Aksara Jawa” adalah dengan menggunakan _brute force string matching_, yaitu algoritma pencocokan _string_ secara _straight forward_. Pencarian pola dilakukan secara satu per satu dalam suatu teks dari kiri atau kanan sampai akhir dari string tersebut. Apabila terdapat salah satu karakter dari pola yang tidak sesuai dengan teks, maka pencarian ulang akan dilakukan dari awal pola yang ada. Pada proyek STBI Kelompok 4 “Aksara Jawa”, _query_ merupakan nama huruf aksara Jawa yang ditulis dengan alfabet roman, misalnya “ha”, “na”, “ca”, dll. Dataset dalam proyek ini telah dilabeli terlebih dahulu sesuai dengan cara baca aksara Jawa dalam bentuk dasar. Label tersebut akan dicocokkan dengan _query_ untuk mengeluarkan _output_ berupa huruf aksara Jawa dalam bentuk huruf dasar, kata, maupun kalimat.
-</br></br>
+</br>
 
 **Jawaban Nomor 2** </br>
 Metode evaluasi yang digunakan untuk mengevaluasi prototype STBI Kelompok 4 “Aksara Jawa” adalah dengan menghitung waktu pencarian dan hasil pencarian dengan status “ditemukan”. Rata-rata keseluruhan waktu pencarian dalam proyek ini yaitu 0.59 detik, pencarian tercepat yaitu pada percobaan ke-1 dengan dataset huruf dasar aksara Jawa, sedangkan pencarian terlama yaitu pada percobaan ke-3 dengan dataset gabungan antara huruf dasar aksara Jawa serta contoh penggunaannya dalam bentuk kata dan kalimat. Sementara itu, hasil evaluasi menunjukkan bahwa sistem dalam proyek ini adalah 100% akurat dengan menggunakan berbagai macam bentuk _query_ aksara Jawa dalam bentuk dasar yang terdiri dari kombinasi _upper case_ maupun _lower case_. Misal _query_ = “hA”, maka sistem akan mengeluarkan _output_ untuk semua data gambar yang memiliki label “ha”.
-</br></br>
+</br>
 
 **Jawaban Nomor 3** </br>
 Perbedaan antara sistem rekomendasi dan sistem tanya jawab adalah sebagai berikut. </br>
@@ -17,7 +17,7 @@ a. Sistem rekomendasi merupakan suatu sistem yang digunakan oleh _user_ untuk me
 b. Sistem tanya jawab merupakan sistem yang digunakan untuk menjawab pertanyaan berdasarkan koleksi dokumen yang tidak terstruktur dalam bahasa alami, yaitu dengan melakukan pencarian _query_ sebagai pertanyaan sehingga bisa menghasilkan _output_ berupa jawaban yang sesuai. </br>
 
 Dengan demikian, proyek STBI Kelompok 4 “Aksara Jawa” termasuk ke dalam kategori sistem tanya jawab. Hal ini disebabkan karena sistem bekerja dengan cara menerima _input_ berupa _query_ yang akan melalui _text preprocessing_ terlebih dahulu, kemudian dilakukan proses _string matching_ dengan _label_ yang ada pada dataset. _Output_ yang dikeluarkan yaitu berupa gambar dengan _label_ yang sama seperti pada _query_.
-</br></br>
+</br>
 
 **Jawaban Nomor 4** Tentang proyek STBI Kelompok 4 “Aksara Jawa” </br>
 a. Rangkuman proyek STBI </br>
@@ -38,6 +38,6 @@ a. Rangkuman proyek STBI </br>
 [10]	Azis, M. R., Fitri, I., & Rahman, B. (2021). PENGGUNAAN ALGORITMA BRUTE FORCE STRING MATCHING DALAM PENCARIAN ORANG HILANG PADA WEBSITE TEMUKANDIA. COM. JIPI (Jurnal Ilmiah Penelitian dan Pembelajaran Informatika), 6(2), 205-212.</br>
 [11]	Setiawan, C. B. (2018). Penerapan dan Perbandingan Algoritma String Matching pada Aplikasi UUD 1945 dan UU di Indonesia
 </br></br>
-Proyek STBI Kelompok 4 yaitu “Aksara Jawa” merupakan _multimedia information retrieval system_ karena sistem ini melakukan ekstraksi informasi semantik dari sumber data multimedia dalam bentuk gambar, yaitu berupa _label_.
+b. Proyek STBI Kelompok 4 yaitu “Aksara Jawa” merupakan _multimedia information retrieval system_ karena sistem ini melakukan ekstraksi informasi semantik dari sumber data multimedia dalam bentuk gambar, yaitu berupa _label_.
 </br></br>
 Rangkuman dalam bentuk paper dapat dilihat di: https://docs.google.com/document/d/1tmFKtXr9QkoUrM6n0OSlNiRQ5zSodkGjRUMTac4Co5c/edit?usp=sharing
